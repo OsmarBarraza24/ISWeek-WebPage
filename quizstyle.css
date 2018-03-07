@@ -1,0 +1,40 @@
+body {
+    background-position: center;
+    background-color: #f3f3f3;
+    background-size: cover;
+}
+
+.customcontainerquiz {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-size: cover;
+    align-content: center;
+    justify-content: center;
+    padding: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.quizcontainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 5em;
+    color: #3f3f3f;
+}
+
+h2, h3 {
+    color: #3f3f3f;
+}
+
+h3 {
+    text-align: center;
+    width: 800px;
+}
