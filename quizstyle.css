@@ -25,6 +25,12 @@ body {
     padding: 1em;
 }
 
+.play4fun {
+    background-image: url(play4fun.jpg);
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
 .slideshow {
     margin-bottom: 3em;
     padding: 0px;
@@ -43,6 +49,8 @@ h3 {
     text-align: center;
     width: 800px;
 }
+
+
 /*
 @media (max-width: 800px){
     h3 {
