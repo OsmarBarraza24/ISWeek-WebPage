@@ -25,6 +25,16 @@ body {
     padding: 1em;
 }
 
+.alternativecontainer {
+    background-color: #e3e3e3;
+}
+
+@media (max-width:800px){
+    .customcontainerquiz {
+        margin: 0px;
+    }
+}
+
 .play4fun {
     background-image: url(play4fun.jpg);
     margin-left: 10em;
@@ -48,6 +58,10 @@ h2, h3 {
 h3 {
     text-align: center;
     width: 800px;
+}
+
+.alternativequizcontainer {
+    width: 600px;
 }
 
 
