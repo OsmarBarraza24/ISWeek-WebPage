@@ -42,9 +42,11 @@ body {
         margin: 0px;
     }
     .marvel {
+        align-content: center;
         margin: 0px;
     }
     .strikers {
+        align-content: center;
         margin: 0px;
     }
     .meleeslide {
