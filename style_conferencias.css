@@ -36,4 +36,7 @@ img{
     margin: 30px;
 }
 
-
+.text-container{
+    display: flex;
+    
+}
