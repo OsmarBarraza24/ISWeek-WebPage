@@ -28,11 +28,13 @@ h2,h3,h4,h5,h6{
     color: black
 }
 
-img{
+.img{
     display: flex;
+    justify-content: center;
     height: 250px;
     width: 400px;
     transition: 1s;
     margin: 30px;
 }
+
 
