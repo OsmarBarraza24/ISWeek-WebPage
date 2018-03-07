@@ -25,6 +25,11 @@ body {
     padding: 1em;
 }
 
+.slideshow {
+    margin-bottom: 3em;
+    padding: 0px;
+}
+
 h1 {
     font-size: 5em;
     color: #3f3f3f;
@@ -37,4 +42,10 @@ h2, h3 {
 h3 {
     text-align: center;
     width: 800px;
+}
+
+@media (max-width: 800px){
+    h2 {
+        font-size: 1em;
+    }
 }
