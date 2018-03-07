@@ -43,9 +43,9 @@ h3 {
     text-align: center;
     width: 800px;
 }
-
+/*
 @media (max-width: 800px){
-    h2 {
+    h3 {
         font-size: 1em;
     }
-}
+}*/
