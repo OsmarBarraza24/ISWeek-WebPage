@@ -1,0 +1,78 @@
+body {
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+}
+
+.nav-item {
+    margin-left: 2em;
+}
+
+.customcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-position: center;
+    background-image: url("melee.jpg");
+    background-size: cover;
+    padding: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+/*nuevo*/
+.meleeslide {
+    box-shadow: 2px solid black;
+}
+
+@media (min-width: 800px){
+    .melee {
+        max-height: 830px;
+    }
+    .meleeslide {
+        width: 600px;
+        height: 400px;
+        margin-top: 10em;
+    }
+}
+
+@media (max-width: 800px){
+    .melee {
+        align-content: center;
+        margin: 0px;
+    }
+    .meleeslide {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.marvel {
+    background-image: url("umvc3.jpg");
+}
+
+.strikers {
+    background-image: url("strikers.jpg");
+}
+
+.logo {
+    width: 300px;
+    height: 120px;
+}
+
+.logomarvel {
+    width: 300px;
+    height: 166px;
+}
+
+.logostrikers {
+    width: 300px;
+    height: 162px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f3f3f3;
+}
+
+
+
