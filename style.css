@@ -77,6 +77,11 @@ body {
     height: 162px;
 }
 
+.logomariokart {
+    width: 412px;
+    height: 120px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #f3f3f3;
 }

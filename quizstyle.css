@@ -35,15 +35,23 @@ body {
     }
 }
 
+.firstcontainer {
+    padding-top: 2em;
+}
+
+.lastcontainer {
+    padding-bottom: 2em;
+}
+
 .play4fun {
     background-image: url(play4fun.jpg);
-    margin-left: 10em;
-    margin-right: 10em;
+    
 }
 
 .slideshow {
     margin-bottom: 3em;
     padding: 0px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 h1 {
@@ -51,7 +59,7 @@ h1 {
     color: #3f3f3f;
 }
 
-h2, h3 {
+h2, h3, h5 {
     color: #3f3f3f;
 }
 
@@ -62,6 +70,21 @@ h3 {
 
 .alternativequizcontainer {
     width: 600px;
+}
+
+.cardcontainer {
+    padding: 0px;
+}
+
+@media (max-width: 800px) {
+    .cardcontainer {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+.card {
+    margin-top: 2em;
 }
 
 
