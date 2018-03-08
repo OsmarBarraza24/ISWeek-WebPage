@@ -62,6 +62,10 @@ body {
     background-image: url("strikers.jpg");
 }
 
+.mariokart {
+    background-image: url("mariokart.jpg");
+}
+
 .logo {
     width: 300px;
     height: 120px;
@@ -80,6 +84,12 @@ body {
 .logomariokart {
     width: 412px;
     height: 120px;
+}
+
+@media (max-width: 800px) {
+    .logomariokart {
+        width: 300px;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
