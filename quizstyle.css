@@ -48,6 +48,10 @@ body {
     
 }
 
+.customcardtext {
+    border: none;
+}
+
 .slideshow {
     margin-bottom: 3em;
     padding: 0px;
