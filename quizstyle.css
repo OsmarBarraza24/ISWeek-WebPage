@@ -44,8 +44,13 @@ body {
 }
 
 .play4fun {
+    
     background-image: url(play4fun.jpg);
     
+}
+
+.contact {
+    flex-direction: column;
 }
 
 .customcardtext {

@@ -25,6 +25,10 @@ body {
     box-shadow: 2px solid black;
 }
 
+#altbody {
+    background-color: #f3f3f3;
+}
+
 @media (min-width: 800px){
     .melee {
         max-height: 830px;
@@ -52,6 +56,10 @@ body {
         align-content: center;
         margin: 0px;
     }
+    .football {
+        align-content: center;
+        margin: 0px;
+    }
     .meleeslide {
         width: 300px;
         height: 200px;
@@ -68,6 +76,10 @@ body {
 
 .mariokart {
     background-image: url("mariokart.jpg");
+}
+
+.football {
+    background-image: url("football.jpg");
 }
 
 .logo {
@@ -100,5 +112,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #f3f3f3;
 }
 
+.altcolor > h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
 
 
